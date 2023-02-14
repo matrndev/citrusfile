@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CitrusFile</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script>
+        swal.fire({
+            title: "Success!",
+            text: "Click on OK to show more info",
+            icon: "success"
+        })
+    </script>
+    <div class="maincontainer">
+        <h1 class="maintitle">CitrusFile</h1>
+        <h3 class="mainsubtitle">Free, anonymous, unlimited file uploader.</h3>
+        <br>
+        <h4>File: <a href="<%= link %>" target="_blank"><%= link %></a> </h4>
+        <br>
+        <a href="/" class="btngreen">Go back</a>
+    </div>
+    <footer style="text-align: center; font-size: 9px;">
+        CitrusFile by <a href="https://matrn.dev">matrndev</a> (2020, published 2023) | <a href="https://github.com/matrndev/citrusfile/blob/main/LICENSE">LICENSE</a> | <a href="https://github.com/matrndev/citrusfile">Source code on GitHub</a>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,400;0,700;0,800;1,500&display=swap');
+body {
+    font-family: 'Epilogue', sans-serif;
+    background-color: #fffd6b;
+}
+.maincontainer{
+    padding: 70px 0;
+    text-align: center;
+    
+}
+.maintitle {
+    font-size: 120px;
+}
+.mainsubtitle {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+a {
+    color: #84910e;
+    transition-duration: 0.3s;
+}
+a:hover {
+    color: #2f9c0e;
+    text-decoration: none;
+}
+
+.btngreen {
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #5acd2d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 21px;
+    padding-right: 21px;
+    border-style: hidden;
+    color: #f5f5f5;
+    border-color: #5acd2d;
+    transition-duration: 0.3s;
+}
+.btngreen:hover {
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #34741b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 21px;
+    padding-right: 21px;
+    border-style: hidden;
+    color: #f5f5f5;
+    border-color: #34741b;
+}
+
+@media (max-width: 700px) {
+    .maintitle {
+        font-size: 60px;
+    }
+    .mainsubtitle {
+        font-size: 20px;
+    }
+}
